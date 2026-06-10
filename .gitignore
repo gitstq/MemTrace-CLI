@@ -1,0 +1,36 @@
+# MemTrace-CLI .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MemTrace data (local development)
+.memtrace/
+/tmp/memtrace_test/
+
+# Environment
+.env
+.env.local
+venv/
+.venv/
+
+# Logs
+*.log
